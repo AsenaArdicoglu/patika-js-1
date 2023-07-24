@@ -1,4 +1,4 @@
-let yourName =prompt("Adinizi giriniz:")
+// let yourName =prompt("Adinizi giriniz:")
 let nameSurname = document.querySelector("#nameSurname");
 nameSurname.innerHTML =`${yourName}`
 
@@ -19,4 +19,4 @@ function timeCircle(){
 
     clock.innerHTML =`${dayName}:${minutes}:${seconds}:${dayName}`;
 }
-setInterval(timeCircle, 1000);
+// setInterval(timeCircle, 1000);
